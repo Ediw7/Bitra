@@ -10,9 +10,9 @@ export const getWhatsAppLink = (message?: string) => {
 
 // Navigation Links
 export const NAV_LINKS = [
-  { label: "Portfolio", href: "#portfolio" },
   { label: "Tentang", href: "#about" },
-  { label: "Layanan", href: "#services" },
+  { label: "Portfolio", href: "#portfolio" },
   { label: "Proses", href: "#process" },
+  { label: "Layanan", href: "#services" },
   { label: "FAQ", href: "#faq" },
 ];
