@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NAV_LINKS, getWhatsAppLink } from "@/lib/constants";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -48,13 +49,14 @@ export default function Navbar() {
         <div className="max-w-[95%] xl:max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
-            <a href="#" className="flex items-center gap-3 group" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-              <div className="w-10 h-10 rounded-none bg-foreground flex items-center justify-center font-bold text-bitra-green text-lg tracking-tight group-hover:-rotate-12 transition-transform duration-300">
-                B
-              </div>
-              <span className="text-foreground font-bold text-2xl tracking-tighter uppercase">
-                BITRA
-              </span>
+            <a href="#" className="flex items-center group" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+              <Image
+                src="/logo/bitraLogo1.png"
+                alt="Bitra Logo"
+                width={160}
+                height={48}
+                className="h-10 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+              />
             </a>
 
             {/* Desktop Nav */}

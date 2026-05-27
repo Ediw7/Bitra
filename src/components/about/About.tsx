@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -29,8 +30,14 @@ export default function About() {
               </p>
             </div>
             {/* Giant Background Letter/Icon */}
-            <div className="absolute -bottom-10 -right-4 text-[12rem] sm:text-[15rem] font-serif italic font-black text-foreground/[0.03] leading-none group-hover:-rotate-12 transition-transform duration-700 pointer-events-none select-none">
-              B
+            <div className="absolute -bottom-10 -right-4 group-hover:-rotate-12 transition-transform duration-700 pointer-events-none select-none opacity-5">
+              <Image 
+                src="/logo/bitraLogo3.png" 
+                alt="Bitra Background Icon" 
+                width={240} 
+                height={240} 
+                className="w-48 h-48 sm:w-64 sm:h-64 object-contain" 
+              />
             </div>
           </motion.div>
 
