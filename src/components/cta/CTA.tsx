@@ -30,13 +30,13 @@ export default function CTA() {
             Langkah Selanjutnya
           </div>
           
-          <h2 className="text-5xl sm:text-7xl lg:text-[7rem] font-bold uppercase tracking-tighter leading-[0.9] mb-10">
-            Siap bikin Instagram <br className="hidden sm:block" />
-            <span className="font-serif italic font-light lowercase text-bitra-green">lebih rapi?</span>
+          <h2 className="text-4xl sm:text-6xl lg:text-[6rem] font-bold uppercase tracking-tighter leading-[0.9] mb-10">
+            Siap Bangun Instagram <br className="hidden sm:block" />
+            <span className="font-serif italic font-light lowercase text-bitra-green">Lebih Profesional?</span>
           </h2>
           
           <p className="text-lg sm:text-xl text-background/80 max-w-2xl mx-auto mb-16 font-medium leading-relaxed">
-            Mulai dari nol atau perbaiki yang sudah ada. Konsultasi gratis sekarang, mari wujudkan identitas visual yang profesional untuk bisnis Anda.
+            Diskusikan kebutuhan brand Anda bersama BITRA.
           </p>
 
           <motion.a 
@@ -47,7 +47,7 @@ export default function CTA() {
             rel="noopener noreferrer" 
             className="inline-flex items-center justify-center gap-4 bg-bitra-green text-foreground hover:bg-background hover:text-foreground px-8 sm:px-12 py-5 sm:py-6 rounded-full text-sm sm:text-base font-bold uppercase tracking-[0.2em] transition-colors duration-300 shadow-[8px_8px_0px_rgba(255,255,255,0.2)] hover:shadow-none"
           >
-            Chat WhatsApp Sekarang
+            Chat WhatsApp
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </motion.a>
         </motion.div>

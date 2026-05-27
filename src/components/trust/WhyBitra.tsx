@@ -46,8 +46,8 @@ export default function WhyBitra() {
           className="text-center mb-12"
         >
           <p className="text-bitra-green text-sm font-semibold tracking-widest uppercase mb-3">Keunggulan</p>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground tracking-tight mb-4">
-            Kenapa Pilih Kami?
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground tracking-tight mb-4 uppercase">
+            Built for Growing Brands
           </h2>
           <p className="text-gray text-base max-w-xl mx-auto leading-relaxed">
             Kami menggabungkan kecepatan, konsistensi, dan kepraktisan. Dirancang khusus untuk membantu UMKM tumbuh tanpa ribet.

@@ -36,7 +36,7 @@ const steps = [
   {
     num: "03",
     title: "Review & Revision",
-    desc: "Kami presentasikan hasilnya kepada Anda. Ada yang kurang pas? Silakan minta revisi sampai desainnya benar-benar sempurna.",
+    desc: "Kami kirim draft desain untuk direview bersama. Ada yang kurang pas? Silakan minta revisi sampai desainnya benar-benar sempurna.",
     bg: "bg-foreground",
     textCol: "text-background",
     descCol: "text-background/70",

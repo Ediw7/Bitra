@@ -41,4 +41,16 @@ export const faqItems: FAQItem[] = [
     answer:
       "Belum. Kami menyediakan desain siap upload beserta caption template. Posting dilakukan oleh klien sendiri agar kontrol penuh atas akun tetap di tangan Anda.",
   },
+  {
+    id: 7,
+    question: "Apakah order harus di Semarang?",
+    answer:
+      "Tidak, BITRA melayani online via WhatsApp ke seluruh Indonesia.",
+  },
+  {
+    id: 8,
+    question: "Apakah ada DP?",
+    answer:
+      "Ya, kami menerapkan sistem DP 50% sebelum project dimulai sebagai tanda komitmen dan sisanya dibayarkan setelah draft desain selesai.",
+  },
 ];

@@ -26,7 +26,7 @@ export default function About() {
                 Bukan sekadar desain, kami membangun <span className="font-serif italic font-light text-bitra-green text-5xl sm:text-6xl tracking-tight">Karakter</span>.
               </h3>
               <p className="text-gray text-lg leading-relaxed max-w-md">
-                BITRA adalah studio kreatif yang percaya bahwa setiap UMKM berhak tampil mahal dan profesional di Instagram tanpa biaya yang menguras kantong.
+                BITRA percaya bahwa setiap UMKM berhak tampil profesional dan membangun identitas visual yang kuat di Instagram.
               </p>
             </div>
             {/* Giant Background Letter/Icon */}
@@ -43,10 +43,10 @@ export default function About() {
 
           {/* Fokus Card */}
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6, delay: 0.1 }} className="bg-[#FFCC00] border-4 border-foreground shadow-[8px_8px_0px_#000] p-8 flex flex-col justify-between h-full min-h-[220px] group overflow-hidden relative hover:-translate-y-2 transition-all duration-500">
-            <p className="text-black/60 font-bold uppercase tracking-widest text-xs relative z-10">Fokus Utama</p>
+            <p className="text-black/60 font-bold uppercase tracking-widest text-xs relative z-10">BITRA Values</p>
             <div className="relative z-10">
-              <h4 className="text-4xl font-black text-black leading-none mb-2">UMKM</h4>
-              <p className="text-black/70 text-sm font-medium">Membantu bisnis kecil scale-up.</p>
+              <h4 className="text-4xl font-black text-black leading-none mb-2">UMKM Focus</h4>
+              <p className="text-black/70 text-sm font-medium">Kami memahami kebutuhan bisnis kecil dan berkembang.</p>
             </div>
             <div className="absolute -top-10 -right-10 w-32 h-32 bg-white/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700" />
           </motion.div>
@@ -61,9 +61,10 @@ export default function About() {
 
           {/* Spesialisasi Card */}
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6, delay: 0.2 }} className="bg-foreground border-4 border-foreground shadow-[8px_8px_0px_#000] p-8 flex flex-col justify-between h-full min-h-[220px] group relative overflow-hidden hover:-translate-y-2 transition-all duration-500">
-            <p className="text-white/50 font-bold uppercase tracking-widest text-xs relative z-10">Spesialisasi</p>
+            <p className="text-white/50 font-bold uppercase tracking-widest text-xs relative z-10">Creative Design</p>
             <div className="relative z-10">
-              <h4 className="text-3xl font-bold text-white leading-tight mb-2">Instagram<br/>Mastery</h4>
+              <h4 className="text-3xl font-bold text-white leading-tight mb-2">Visual<br/>Konsisten</h4>
+              <p className="text-white/70 text-sm font-medium">Visual yang konsisten dan relevan untuk brand Anda.</p>
             </div>
             {/* Instagram gradient blob */}
             <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-500 opacity-20 blur-2xl group-hover:opacity-40 transition-opacity duration-500" />
@@ -72,8 +73,8 @@ export default function About() {
           {/* Pendekatan Card */}
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6, delay: 0.3 }} className="md:col-span-2 lg:col-span-3 bg-bitra-green border-4 border-foreground shadow-[8px_8px_0px_#000] p-8 flex items-center justify-between h-full min-h-[220px] relative overflow-hidden group hover:-translate-y-2 transition-all duration-500">
             <div className="relative z-10">
-              <p className="text-background/70 font-bold uppercase tracking-widest text-xs mb-3">Pendekatan</p>
-              <h4 className="text-3xl sm:text-4xl lg:text-5xl font-black text-background leading-none">100% Praktis<br/>via WhatsApp.</h4>
+              <p className="text-background/70 font-bold uppercase tracking-widest text-xs mb-3">Practical Workflow</p>
+              <h4 className="text-3xl sm:text-4xl lg:text-5xl font-black text-background leading-none">Semua Praktis<br/>via WhatsApp.</h4>
               <p className="text-background/90 text-sm sm:text-base mt-3 font-medium">Tanpa meeting ribet. Langsung brief & kerjakan!</p>
             </div>
             {/* Abstract WhatsApp bubble icon */}
@@ -84,9 +85,10 @@ export default function About() {
 
           {/* Goal Card */}
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6, delay: 0.4 }} className="bg-[#D696FF] border-4 border-foreground shadow-[8px_8px_0px_#000] p-8 flex flex-col justify-between h-full min-h-[220px] group relative overflow-hidden hover:-translate-y-2 transition-all duration-500">
-            <p className="text-black/60 font-bold uppercase tracking-widest text-xs relative z-10">Goal</p>
+            <p className="text-black/60 font-bold uppercase tracking-widest text-xs relative z-10">Growth Mindset</p>
             <div className="relative z-10">
-              <h4 className="text-3xl font-black text-black leading-tight mb-2">Business<br/>Growth</h4>
+              <h4 className="text-3xl font-black text-black leading-tight mb-2">Desain yang<br/>Mendukung</h4>
+              <p className="text-black/70 text-sm font-medium">Desain yang mendukung brand berkembang.</p>
             </div>
             <svg className="absolute right-6 bottom-6 w-16 h-16 text-black/20 group-hover:-translate-y-2 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>

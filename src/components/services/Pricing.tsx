@@ -81,7 +81,7 @@ export default function Pricing() {
               {/* Action Button & Barcode */}
               <div className="p-8 bg-surface flex flex-col justify-between">
                  <a href={getWhatsAppLink(plan.waMessage)} target="_blank" rel="noopener noreferrer" className={`w-full block text-center py-5 text-sm font-bold uppercase tracking-[0.2em] border-4 transition-colors duration-300 ${plan.popular ? "bg-bitra-green border-bitra-green text-background hover:bg-background hover:text-bitra-green" : "bg-background border-foreground text-foreground hover:bg-foreground hover:text-background"}`}>
-                   Pilih {plan.name}
+                   Chat Paket {plan.name}
                  </a>
                  
                  {/* Decorative Barcode */}

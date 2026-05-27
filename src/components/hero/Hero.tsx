@@ -100,7 +100,7 @@ export default function Hero() {
               className="flex-1"
             >
               <h2 className="text-xl sm:text-2xl font-bold text-foreground leading-snug">
-                Tampilan lebih rapi, profesional, dan konsisten setiap hari.
+                Instagram Bisnis Lebih Rapi.<br/>Brand Lebih Dipercaya.
               </h2>
             </motion.div>
 
@@ -111,7 +111,7 @@ export default function Hero() {
               className="flex-1"
             >
               <p className="text-sm sm:text-base text-gray leading-relaxed">
-                BITRA membantu UMKM membangun identitas visual Instagram yang kuat dan siap jualan. Dari pembuatan desain feed hingga perencanaan konten yang terarah.
+                BITRA membantu UMKM membangun visual Instagram yang konsisten dan siap berkembang.
               </p>
             </motion.div>
           </div>
@@ -128,7 +128,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-bitra-green text-foreground border-4 border-foreground font-bold tracking-[0.2em] text-sm uppercase px-10 py-5 transition-all duration-300 shadow-[8px_8px_0px_#000] hover:shadow-none hover:translate-x-2 hover:translate-y-2 hover:bg-foreground hover:text-background"
             >
-              Konsultasi Sekarang
+              Mulai Konsultasi WA
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
           </motion.div>

@@ -8,6 +8,7 @@ import About from "@/components/about/About";
 import FAQ from "@/components/faq/FAQ";
 import CTA from "@/components/cta/CTA";
 import Footer from "@/components/footer/Footer";
+import Testimonials from "@/components/testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <WhyBitra />
       <Workflow />
       <Pricing />
+      <Testimonials />
       <FAQ />
       <CTA />
       <Footer />
