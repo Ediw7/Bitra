@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { getWhatsAppLink } from "@/lib/constants";
+import Image from "next/image";
 
 export default function Hero() {
 
@@ -65,10 +66,14 @@ export default function Hero() {
           </div>
 
           {/* Bottom Left Offset Square Decoration (Brutalist Style) */}
-          <div className="absolute -bottom-10 -left-6 sm:-bottom-16 sm:-left-12 w-20 h-20 sm:w-28 sm:h-28 hidden md:flex items-center justify-center border-4 border-foreground bg-background shadow-[12px_12px_0px_#FFCC00] z-20">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-foreground">
-              <path d="M12 5v14M19 12l-7 7-7-7" />
-            </svg>
+          <div className="absolute -bottom-10 -left-6 sm:-bottom-16 sm:-left-12 w-20 h-20 sm:w-28 sm:h-28 hidden md:flex items-center justify-center border-4 border-foreground bg-background shadow-[12px_12px_0px_#FFCC00] z-20 group">
+            <Image
+              src="/logo/bitraLogo3.png"
+              alt="Bitra Icon"
+              width={64}
+              height={64}
+              className="w-10 h-10 sm:w-14 sm:h-14 object-contain group-hover:-rotate-12 transition-transform duration-300"
+            />
           </div>
         </div>
 
