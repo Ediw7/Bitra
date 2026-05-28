@@ -51,7 +51,7 @@ export default function Navbar() {
             {/* Logo */}
             <a href="#" className="flex items-center group" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
               <Image
-                src="/logo/bitraLogo1.png"
+                src={mobileOpen ? "/logo/bitraLogo2.png" : "/logo/bitraLogo1.png"}
                 alt="Bitra Logo"
                 width={160}
                 height={48}
