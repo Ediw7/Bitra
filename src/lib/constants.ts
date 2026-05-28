@@ -1,5 +1,5 @@
 // WhatsApp Configuration
-export const WHATSAPP_NUMBER = "6281234567890"; // Ganti dengan nomor WA BITRA
+export const WHATSAPP_NUMBER = "6285640170089"; // Ganti dengan nomor WA BITRA
 export const WHATSAPP_DEFAULT_MESSAGE =
   "Halo BITRA, saya ingin konsultasi desain Instagram.";
 

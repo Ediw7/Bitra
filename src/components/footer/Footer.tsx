@@ -30,7 +30,7 @@ export default function Footer() {
               Membangun identitas visual Instagram yang kuat, profesional, dan berorientasi pada konversi untuk UMKM Indonesia.
             </p>
             <div className="flex gap-4">
-              <a href="https://instagram.com/bitra.studio" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border-2 border-foreground flex items-center justify-center hover:bg-foreground hover:text-background transition-colors duration-300">
+              <a href="https://www.instagram.com/bitra_studio/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border-2 border-foreground flex items-center justify-center hover:bg-foreground hover:text-background transition-colors duration-300">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
               </a>
               <a href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border-2 border-foreground flex items-center justify-center hover:bg-foreground hover:text-background transition-colors duration-300">
@@ -64,7 +64,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/bitra.studio" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray hover:text-bitra-green font-medium transition-colors duration-300">
+                <a href="https://www.instagram.com/bitra_studio/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray hover:text-bitra-green font-medium transition-colors duration-300">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
                   Instagram
                 </a>
