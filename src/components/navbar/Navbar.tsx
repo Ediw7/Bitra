@@ -92,18 +92,18 @@ export default function Navbar() {
               aria-label="Toggle menu"
             >
               <span
-                className={`block w-8 h-1 bg-foreground transition-all duration-300 ${
-                  mobileOpen ? "rotate-45 translate-y-2.5 bg-background" : ""
+                className={`block w-8 h-1 transition-all duration-300 ${
+                  mobileOpen ? "rotate-45 translate-y-2.5 bg-bitra-green" : "bg-foreground"
                 }`}
               />
               <span
-                className={`block w-8 h-1 bg-foreground transition-all duration-300 ${
-                  mobileOpen ? "opacity-0" : ""
+                className={`block w-8 h-1 transition-all duration-300 ${
+                  mobileOpen ? "opacity-0 bg-bitra-green" : "bg-foreground"
                 }`}
               />
               <span
-                className={`block w-8 h-1 bg-foreground transition-all duration-300 ${
-                  mobileOpen ? "-rotate-45 -translate-y-2.5 bg-background" : ""
+                className={`block w-8 h-1 transition-all duration-300 ${
+                  mobileOpen ? "-rotate-45 -translate-y-2.5 bg-bitra-green" : "bg-foreground"
                 }`}
               />
             </button>

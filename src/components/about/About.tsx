@@ -78,7 +78,7 @@ export default function About() {
               <p className="text-background/90 text-sm sm:text-base mt-3 font-medium">Tanpa meeting ribet. Langsung brief & kerjakan!</p>
             </div>
             {/* Abstract WhatsApp bubble icon */}
-            <svg className="absolute -right-6 -bottom-6 w-40 h-40 sm:w-48 sm:h-48 text-background/10 group-hover:scale-110 transition-transform duration-500" viewBox="0 0 24 24" fill="currentColor">
+            <svg className="absolute -right-6 -bottom-6 w-40 h-40 sm:w-48 sm:h-48 text-black/10 z-0 pointer-events-none group-hover:scale-110 transition-transform duration-500" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2C6.48 2 2 6.48 2 12C2 13.7 2.44 15.3 3.2 16.7L2 22L7.48 20.7C8.88 21.5 10.4 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2Z"/>
             </svg>
           </motion.div>
